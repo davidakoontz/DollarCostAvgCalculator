@@ -1,0 +1,253 @@
+From UDemy Course    iOS 14 & Swift5: Financial App  with   Stocck APIs &  Unit Tests
+
+Author Kelvin Fok
+total students 1198 Mar 26, 2022 @$14 = $16K  over 6 courses I guess.
+
+My current Section:  42
+
+Course content
+Section 1: Introduction
+1 / 1 | 3min
+Lecture completed
+1. Introduction
+3min
+
+Section 2: Getting Started
+3 / 3 | 19min
+Lecture completed
+2. Setup project
+5min
+Lecture completed
+3. Add search controller
+5min
+Lecture completed
+4. Add prototype cells
+10min
+
+Section 3: Connecting with Stock APIs
+3 / 3 | 21min
+Lecture completed
+5. Get API keys
+6min
+Lecture completed
+6. Create search results model
+6min
+Lecture completed
+7. Integrate API service
+9min
+
+Section 4: Display Search Results
+5 / 5 | 40min
+Lecture completed
+8. Handle search results
+9min
+Lecture completed
+9. Display search results on tableviewcell
+7min
+Lecture completed
+10. Add modes
+6min
+Lecture completed
+11. Implement tableview placeholder
+11min
+
+Resources
+Lecture completed
+12. Show animation on search
+6min
+
+Section 5: Setting up the Calculator
+4 / 4 | 28min
+Lecture completed
+13. Setup calculator cell
+13min
+Lecture completed
+14. Add form cell
+9min
+Lecture completed
+15. Clean up UI
+4min
+Lecture completed
+16. Guard against empty search query
+1min
+
+Section 6: Creating the models
+4 / 10 | 1hr 9min
+Lecture completed
+17. Add time series monthly adjusted model
+9min
+Lecture completed
+18. Parse search query
+6min
+Lecture completed
+19. Add time series monthly adjust publisher
+3min
+Lecture completed
+20. Refactor API service
+8min
+Lecture completed
+21. Handle search results selection
+7min
+Lecture completed
+22. Sort time series dictionary
+5min
+Lecture completed
+23. Get month infos
+8min
+Lecture completed
+24. Create asset model
+14min
+Lecture completed
+25. Update currency labels
+6min
+Lecture completed
+26. Fix UI bug
+5min
+
+Section 7: Add date selection
+0 / 9 | 1hr 25min
+Lecture completed
+27. Show date selection
+19min
+Lecture completed
+28. Populate dummy date selection cells
+19min
+Lecture completed
+29. Update date selection cell
+7min
+Lecture completed
+30. Handle date selection
+7min
+Lecture completed
+31. Pop date selection tableviewcontroller
+2min
+Lecture completed
+32. Handle previous date selection
+5min
+Lecture completed
+33. Handle date slider
+12min
+Lecture completed
+34. Index out of range bug fix
+3min
+Lecture completed
+35. Observe textfields
+12min
+
+Section 8: Dollar cost averaging service
+0 / 6 | 50min
+Lecture completed
+36. Add dca service
+13min
+Lecture completed
+37. Get investment amount
+7min
+Lecture completed
+38. Get current value
+8min
+Lecture completed
+39. Get number of shares
+5min
+Lecture completed
+40. Refactor and manual test
+7min
+Lecture completed
+41. Update current value view
+10min
+
+Section 9: UI Fix
+0 / 9 | 49min
+Lecture completed
+42. Refactor UI
+6min
+Lecture completed
+43. Format gain label
+8min
+Lecture completed
+44. Update yield
+7min
+Lecture completed
+45. Update annual return
+6min
+Lecture completed
+46. Update UI
+5min
+Lecture completed
+47. Remove redundant animation
+2min
+Lecture completed
+48. Fix annual return bug
+6min
+Lecture completed
+49. Add app icon
+5min
+Lecture completed
+50. Disable tableview scroll
+2min
+
+Section 10: Unit Tests
+0 / 12 | 1hr 47min
+Lecture completed
+51. Setup for unit tests
+5min
+Lecture completed
+52. Unit tests crash course
+11min
+Lecture completed
+53. Add get investment amount tests
+11min
+Lecture completed
+54. Test case plan
+2min
+Lecture completed
+55. Add first unit test
+15min
+Lecture completed
+56. Complete first unit test
+11min
+Lecture completed
+57. Add second test case
+8min
+Lecture completed
+58. Add final test case
+6min
+Lecture completed
+59. Improve ui
+5min
+Lecture completed
+60. Add calculator presenter
+11min
+Lecture completed
+61. Add calculator presenter tests
+13min
+Lecture completed
+62. Refactor models and closing
+9min
+
+Section 11: Complete source code & image assets
+0 / 2 | 1min
+Lecture completed
+63. Xcode project
+1min
+
+Resources
+Lecture completed
+64. Image assets
+1min
+
+Resources
+
+
+Overview
+
+Q&AQuestions and answers
+
+Notes
+
+Announcements
+
+Reviews
+
+Learning tools
+Back to All Questions
+

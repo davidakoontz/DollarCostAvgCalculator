@@ -9,21 +9,59 @@
 /* Begin PBXBuildFile section */
 		6305044B27EC212500DCC6BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305044A27EC212500DCC6BF /* AppDelegate.swift */; };
 		6305044D27EC212500DCC6BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305044C27EC212500DCC6BF /* SceneDelegate.swift */; };
-		6305044F27EC212500DCC6BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305044E27EC212500DCC6BF /* ViewController.swift */; };
+		6305044F27EC212500DCC6BF /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305044E27EC212500DCC6BF /* SearchTableViewController.swift */; };
 		6305045227EC212500DCC6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6305045027EC212500DCC6BF /* Main.storyboard */; };
 		6305045427EC212700DCC6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6305045327EC212700DCC6BF /* Assets.xcassets */; };
 		6305045727EC212700DCC6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6305045527EC212700DCC6BF /* LaunchScreen.storyboard */; };
+		6305046127ECFEF100DCC6BF /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305046027ECFEF100DCC6BF /* SearchTableViewCell.swift */; };
+		6305046427ED4D1100DCC6BF /* AVService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305046327ED4D1100DCC6BF /* AVService.swift */; };
+		6305046727ED4FF500DCC6BF /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305046627ED4FF500DCC6BF /* SearchResults.swift */; };
+		6305046927EE52F600DCC6BF /* SearchPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305046827EE52F600DCC6BF /* SearchPlaceholderView.swift */; };
+		6305046C27EE748700DCC6BF /* UIAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305046B27EE748700DCC6BF /* UIAnimatable.swift */; };
+		6305046E27EF85C600DCC6BF /* ReadME in Resources */ = {isa = PBXBuildFile; fileRef = 6305046D27EF85C600DCC6BF /* ReadME */; };
+		6305047027EF8BCB00DCC6BF /* TimeSeriesMonthlyAdjusted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305046F27EF8BCB00DCC6BF /* TimeSeriesMonthlyAdjusted.swift */; };
+		6305047227EFB9ED00DCC6BF /* CalculatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305047127EFB9ED00DCC6BF /* CalculatorTableViewController.swift */; };
+		6305047427EFBB4800DCC6BF /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305047327EFBB4800DCC6BF /* Asset.swift */; };
+		6305047727EFC7E500DCC6BF /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305047627EFC7E500DCC6BF /* String+Extensions.swift */; };
+		6305047927EFD20A00DCC6BF /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305047827EFD20A00DCC6BF /* UITextField+Extensions.swift */; };
+		6305047B27EFE01000DCC6BF /* DateSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305047A27EFE01000DCC6BF /* DateSelectionTableViewController.swift */; };
+		6305047D27EFF05100DCC6BF /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305047C27EFF05100DCC6BF /* Date+extension.swift */; };
+		6305047F27F1101000DCC6BF /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305047E27F1101000DCC6BF /* Int+Extensions.swift */; };
+		6305048127F1355800DCC6BF /* DCAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048027F1355800DCC6BF /* DCAService.swift */; };
+		6305048327F13A8F00DCC6BF /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048227F13A8F00DCC6BF /* Double+Extensions.swift */; };
+		6305048527F156B000DCC6BF /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048427F156B000DCC6BF /* UIColor+Extensions.swift */; };
+		7CAE236C42AB0F2081A1A865 /* Pods_DollarCostAvgCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1F76AA2B8F1AE76697B2F /* Pods_DollarCostAvgCalculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09C1F76AA2B8F1AE76697B2F /* Pods_DollarCostAvgCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollarCostAvgCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		308ABA6543B25F8617A49439 /* Pods-DollarCostAvgCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarCostAvgCalculator.release.xcconfig"; path = "Target Support Files/Pods-DollarCostAvgCalculator/Pods-DollarCostAvgCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		6305044727EC212500DCC6BF /* DollarCostAvgCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarCostAvgCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6305044A27EC212500DCC6BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6305044C27EC212500DCC6BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6305044E27EC212500DCC6BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6305044E27EC212500DCC6BF /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		6305045127EC212500DCC6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6305045327EC212700DCC6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6305045627EC212700DCC6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6305045827EC212700DCC6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6305046027ECFEF100DCC6BF /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		6305046327ED4D1100DCC6BF /* AVService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVService.swift; sourceTree = "<group>"; };
+		6305046627ED4FF500DCC6BF /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		6305046827EE52F600DCC6BF /* SearchPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceholderView.swift; sourceTree = "<group>"; };
+		6305046B27EE748700DCC6BF /* UIAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimatable.swift; sourceTree = "<group>"; };
+		6305046D27EF85C600DCC6BF /* ReadME */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadME; sourceTree = "<group>"; };
+		6305046F27EF8BCB00DCC6BF /* TimeSeriesMonthlyAdjusted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesMonthlyAdjusted.swift; sourceTree = "<group>"; };
+		6305047127EFB9ED00DCC6BF /* CalculatorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTableViewController.swift; sourceTree = "<group>"; };
+		6305047327EFBB4800DCC6BF /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		6305047627EFC7E500DCC6BF /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		6305047827EFD20A00DCC6BF /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		6305047A27EFE01000DCC6BF /* DateSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectionTableViewController.swift; sourceTree = "<group>"; };
+		6305047C27EFF05100DCC6BF /* Date+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		6305047E27F1101000DCC6BF /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		6305048027F1355800DCC6BF /* DCAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAService.swift; sourceTree = "<group>"; };
+		6305048227F13A8F00DCC6BF /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		6305048427F156B000DCC6BF /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		917F185AD5EC45B90D41A3E9 /* Pods-DollarCostAvgCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarCostAvgCalculator.debug.xcconfig"; path = "Target Support Files/Pods-DollarCostAvgCalculator/Pods-DollarCostAvgCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAE236C42AB0F2081A1A865 /* Pods_DollarCostAvgCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +79,11 @@
 		6305043E27EC212500DCC6BF = {
 			isa = PBXGroup;
 			children = (
+				6305046D27EF85C600DCC6BF /* ReadME */,
 				6305044927EC212500DCC6BF /* DollarCostAvgCalculator */,
 				6305044827EC212500DCC6BF /* Products */,
+				98D6CCD5FCEC475F53C7A94E /* Pods */,
+				8C91547538737A6500FFBBE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,96 @@
 		6305044927EC212500DCC6BF /* DollarCostAvgCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				6305047527EFC7CD00DCC6BF /* extensions */,
+				6305046A27EE745D00DCC6BF /* protoccol */,
+				6305046527ED4FE000DCC6BF /* model */,
+				6305046227ED4CCD00DCC6BF /* services */,
+				6305045F27ECFE7F00DCC6BF /* controllers */,
+				6305045E27ECFE6700DCC6BF /* views */,
 				6305044A27EC212500DCC6BF /* AppDelegate.swift */,
 				6305044C27EC212500DCC6BF /* SceneDelegate.swift */,
-				6305044E27EC212500DCC6BF /* ViewController.swift */,
 				6305045027EC212500DCC6BF /* Main.storyboard */,
 				6305045327EC212700DCC6BF /* Assets.xcassets */,
 				6305045527EC212700DCC6BF /* LaunchScreen.storyboard */,
 				6305045827EC212700DCC6BF /* Info.plist */,
 			);
 			path = DollarCostAvgCalculator;
+			sourceTree = "<group>";
+		};
+		6305045E27ECFE6700DCC6BF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6305046027ECFEF100DCC6BF /* SearchTableViewCell.swift */,
+				6305046827EE52F600DCC6BF /* SearchPlaceholderView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6305045F27ECFE7F00DCC6BF /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6305044E27EC212500DCC6BF /* SearchTableViewController.swift */,
+				6305047127EFB9ED00DCC6BF /* CalculatorTableViewController.swift */,
+				6305047A27EFE01000DCC6BF /* DateSelectionTableViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		6305046227ED4CCD00DCC6BF /* services */ = {
+			isa = PBXGroup;
+			children = (
+				6305046327ED4D1100DCC6BF /* AVService.swift */,
+				6305048027F1355800DCC6BF /* DCAService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		6305046527ED4FE000DCC6BF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6305046627ED4FF500DCC6BF /* SearchResults.swift */,
+				6305046F27EF8BCB00DCC6BF /* TimeSeriesMonthlyAdjusted.swift */,
+				6305047327EFBB4800DCC6BF /* Asset.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6305046A27EE745D00DCC6BF /* protoccol */ = {
+			isa = PBXGroup;
+			children = (
+				6305046B27EE748700DCC6BF /* UIAnimatable.swift */,
+			);
+			path = protoccol;
+			sourceTree = "<group>";
+		};
+		6305047527EFC7CD00DCC6BF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6305047627EFC7E500DCC6BF /* String+Extensions.swift */,
+				6305047827EFD20A00DCC6BF /* UITextField+Extensions.swift */,
+				6305047C27EFF05100DCC6BF /* Date+extension.swift */,
+				6305047E27F1101000DCC6BF /* Int+Extensions.swift */,
+				6305048227F13A8F00DCC6BF /* Double+Extensions.swift */,
+				6305048427F156B000DCC6BF /* UIColor+Extensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		8C91547538737A6500FFBBE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09C1F76AA2B8F1AE76697B2F /* Pods_DollarCostAvgCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D6CCD5FCEC475F53C7A94E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				917F185AD5EC45B90D41A3E9 /* Pods-DollarCostAvgCalculator.debug.xcconfig */,
+				308ABA6543B25F8617A49439 /* Pods-DollarCostAvgCalculator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6305045B27EC212700DCC6BF /* Build configuration list for PBXNativeTarget "DollarCostAvgCalculator" */;
 			buildPhases = (
+				1DCED1BB30A83A7E0C165A11 /* [CP] Check Pods Manifest.lock */,
 				6305044327EC212500DCC6BF /* Sources */,
 				6305044427EC212500DCC6BF /* Frameworks */,
 				6305044527EC212500DCC6BF /* Resources */,
+				1B0E13D8BA419D281949732A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6305046E27EF85C600DCC6BF /* ReadME in Resources */,
 				6305045727EC212700DCC6BF /* LaunchScreen.storyboard in Resources */,
 				6305045427EC212700DCC6BF /* Assets.xcassets in Resources */,
 				6305045227EC212500DCC6BF /* Main.storyboard in Resources */,
@@ -133,14 +259,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B0E13D8BA419D281949732A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DollarCostAvgCalculator/Pods-DollarCostAvgCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DollarCostAvgCalculator/Pods-DollarCostAvgCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DollarCostAvgCalculator/Pods-DollarCostAvgCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DCED1BB30A83A7E0C165A11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DollarCostAvgCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6305044327EC212500DCC6BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6305044F27EC212500DCC6BF /* ViewController.swift in Sources */,
+				6305047927EFD20A00DCC6BF /* UITextField+Extensions.swift in Sources */,
+				6305044F27EC212500DCC6BF /* SearchTableViewController.swift in Sources */,
+				6305046C27EE748700DCC6BF /* UIAnimatable.swift in Sources */,
+				6305046127ECFEF100DCC6BF /* SearchTableViewCell.swift in Sources */,
+				6305047427EFBB4800DCC6BF /* Asset.swift in Sources */,
+				6305047F27F1101000DCC6BF /* Int+Extensions.swift in Sources */,
+				6305047727EFC7E500DCC6BF /* String+Extensions.swift in Sources */,
+				6305047227EFB9ED00DCC6BF /* CalculatorTableViewController.swift in Sources */,
+				6305047D27EFF05100DCC6BF /* Date+extension.swift in Sources */,
+				6305047B27EFE01000DCC6BF /* DateSelectionTableViewController.swift in Sources */,
+				6305048527F156B000DCC6BF /* UIColor+Extensions.swift in Sources */,
 				6305044B27EC212500DCC6BF /* AppDelegate.swift in Sources */,
+				6305048127F1355800DCC6BF /* DCAService.swift in Sources */,
+				6305048327F13A8F00DCC6BF /* Double+Extensions.swift in Sources */,
 				6305044D27EC212500DCC6BF /* SceneDelegate.swift in Sources */,
+				6305047027EF8BCB00DCC6BF /* TimeSeriesMonthlyAdjusted.swift in Sources */,
+				6305046727ED4FF500DCC6BF /* SearchResults.swift in Sources */,
+				6305046427ED4D1100DCC6BF /* AVService.swift in Sources */,
+				6305046927EE52F600DCC6BF /* SearchPlaceholderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +466,7 @@
 		};
 		6305045C27EC212700DCC6BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917F185AD5EC45B90D41A3E9 /* Pods-DollarCostAvgCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +495,7 @@
 		};
 		6305045D27EC212700DCC6BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308ABA6543B25F8617A49439 /* Pods-DollarCostAvgCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
