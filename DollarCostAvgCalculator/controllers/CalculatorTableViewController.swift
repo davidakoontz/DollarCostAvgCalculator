@@ -37,7 +37,7 @@ class CalculatorTableViewController: UITableViewController {
     private var subscribers = Set<AnyCancellable>()
     
     private let dcaService = DCAService()
-    
+    private let calculatorPresenter =  CalculatorPresenter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -111,17 +111,21 @@ class CalculatorTableViewController: UITableViewController {
                 return
             }
 
-            let result = self?.dcaService.calculate(asset: asset, initialInvestmentAmount: initialInvestmentAmount.doubleValue, monthlyDCAAmount: monthlyDollarCostAvgeragingAmount.doubleValue, initialDateOfInvestmentIndex: initialDateOfInvestmentIndex)
+            guard let this = self else { return }
+            
+            let result = this.dcaService.calculate(asset: asset, initialInvestmentAmount: initialInvestmentAmount.doubleValue, monthlyDCAAmount: monthlyDollarCostAvgeragingAmount.doubleValue, initialDateOfInvestmentIndex: initialDateOfInvestmentIndex)
             
             // update the labels from the calculation
-            self?.currentAmountLabel.backgroundColor = (result?.isProfitable == true) ? .themeGreen : .themeRed  // (result?.isProfitable == true) ? .systemGreen : .systemRed // 
-            
-            self?.currentAmountLabel.text =        result?.currentValue.twoDecimalPlaceString
-            self?.investmentAmountLabel.text =    result?.investmentAmount.twoDecimalPlaceString
-            self?.gainLabel.text =                result?.gain.twoDecimalPlaceString
-            self?.yeildLabel.text =               result?.yield.twoDecimalPlaceString
-            self?.annualReturnLabel.text  =       result?.annualReturn.twoDecimalPlaceString
-            
+            let presentation = this.calculatorPresenter.getPresentation(result: result)
+                        
+            this.currentAmountLabel.backgroundColor = presentation.currentValueLabelBackgroundColor
+            this.currentAmountLabel.text = presentation.currentValue
+            this.investmentAmountLabel.text = presentation.investmentAmount
+            this.gainLabel.text = presentation.gain
+            this.yeildLabel.text = presentation.yield
+            this.yeildLabel.textColor = presentation.yieldLabelTextColor
+            this.annualReturnLabel.text = presentation.annualReturn
+            this.annualReturnLabel.textColor = presentation.annualReturnLabelTextColor
             
         }.store(in: &subscribers)
     }

@@ -9,8 +9,8 @@ import UIKit
 
 extension UIColor {
     
-    static  let themeRed = UIColor(hex: "#fae2e1aa")
-    static  let themeGreen = UIColor(hex: "#b0f1ddbb")
+    static  let themeRed = UIColor(hex: "#fae2e1aa")  ?? .systemRed
+    static  let themeGreen = UIColor(hex: "#b0f1ddbb") ?? .systemGreen
     
     public convenience init?(hex: String) {
         let r, g, b, a: CGFloat

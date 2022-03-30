@@ -30,8 +30,20 @@
 		6305048127F1355800DCC6BF /* DCAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048027F1355800DCC6BF /* DCAService.swift */; };
 		6305048327F13A8F00DCC6BF /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048227F13A8F00DCC6BF /* Double+Extensions.swift */; };
 		6305048527F156B000DCC6BF /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048427F156B000DCC6BF /* UIColor+Extensions.swift */; };
+		6305048727F3BCF400DCC6BF /* CalcculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048627F3BCF400DCC6BF /* CalcculatorPresenter.swift */; };
+		6305048F27F4D50E00DCC6BF /* DCACalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305048E27F4D50E00DCC6BF /* DCACalculatorTests.swift */; };
 		7CAE236C42AB0F2081A1A865 /* Pods_DollarCostAvgCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1F76AA2B8F1AE76697B2F /* Pods_DollarCostAvgCalculator.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6305049027F4D50E00DCC6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6305043F27EC212500DCC6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6305044627EC212500DCC6BF;
+			remoteInfo = DollarCostAvgCalculator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09C1F76AA2B8F1AE76697B2F /* Pods_DollarCostAvgCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollarCostAvgCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +73,9 @@
 		6305048027F1355800DCC6BF /* DCAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAService.swift; sourceTree = "<group>"; };
 		6305048227F13A8F00DCC6BF /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		6305048427F156B000DCC6BF /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		6305048627F3BCF400DCC6BF /* CalcculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcculatorPresenter.swift; sourceTree = "<group>"; };
+		6305048C27F4D50E00DCC6BF /* DCACalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCACalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6305048E27F4D50E00DCC6BF /* DCACalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCACalculatorTests.swift; sourceTree = "<group>"; };
 		917F185AD5EC45B90D41A3E9 /* Pods-DollarCostAvgCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarCostAvgCalculator.debug.xcconfig"; path = "Target Support Files/Pods-DollarCostAvgCalculator/Pods-DollarCostAvgCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +88,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6305048927F4D50E00DCC6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +103,7 @@
 			children = (
 				6305046D27EF85C600DCC6BF /* ReadME */,
 				6305044927EC212500DCC6BF /* DollarCostAvgCalculator */,
+				6305048D27F4D50E00DCC6BF /* DCACalculatorTests */,
 				6305044827EC212500DCC6BF /* Products */,
 				98D6CCD5FCEC475F53C7A94E /* Pods */,
 				8C91547538737A6500FFBBE9 /* Frameworks */,
@@ -91,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				6305044727EC212500DCC6BF /* DollarCostAvgCalculator.app */,
+				6305048C27F4D50E00DCC6BF /* DCACalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +162,7 @@
 			children = (
 				6305046327ED4D1100DCC6BF /* AVService.swift */,
 				6305048027F1355800DCC6BF /* DCAService.swift */,
+				6305048627F3BCF400DCC6BF /* CalcculatorPresenter.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -171,6 +196,14 @@
 				6305048427F156B000DCC6BF /* UIColor+Extensions.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		6305048D27F4D50E00DCC6BF /* DCACalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6305048E27F4D50E00DCC6BF /* DCACalculatorTests.swift */,
+			);
+			path = DCACalculatorTests;
 			sourceTree = "<group>";
 		};
 		8C91547538737A6500FFBBE9 /* Frameworks */ = {
@@ -212,6 +245,24 @@
 			productReference = 6305044727EC212500DCC6BF /* DollarCostAvgCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6305048B27F4D50E00DCC6BF /* DCACalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6305049227F4D50E00DCC6BF /* Build configuration list for PBXNativeTarget "DCACalculatorTests" */;
+			buildPhases = (
+				6305048827F4D50E00DCC6BF /* Sources */,
+				6305048927F4D50E00DCC6BF /* Frameworks */,
+				6305048A27F4D50E00DCC6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6305049127F4D50E00DCC6BF /* PBXTargetDependency */,
+			);
+			name = DCACalculatorTests;
+			productName = DCACalculatorTests;
+			productReference = 6305048C27F4D50E00DCC6BF /* DCACalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,6 +275,10 @@
 				TargetAttributes = {
 					6305044627EC212500DCC6BF = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					6305048B27F4D50E00DCC6BF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6305044627EC212500DCC6BF;
 					};
 				};
 			};
@@ -241,6 +296,7 @@
 			projectRoot = "";
 			targets = (
 				6305044627EC212500DCC6BF /* DollarCostAvgCalculator */,
+				6305048B27F4D50E00DCC6BF /* DCACalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +310,13 @@
 				6305045727EC212700DCC6BF /* LaunchScreen.storyboard in Resources */,
 				6305045427EC212700DCC6BF /* Assets.xcassets in Resources */,
 				6305045227EC212500DCC6BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6305048A27F4D50E00DCC6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +383,7 @@
 				6305044B27EC212500DCC6BF /* AppDelegate.swift in Sources */,
 				6305048127F1355800DCC6BF /* DCAService.swift in Sources */,
 				6305048327F13A8F00DCC6BF /* Double+Extensions.swift in Sources */,
+				6305048727F3BCF400DCC6BF /* CalcculatorPresenter.swift in Sources */,
 				6305044D27EC212500DCC6BF /* SceneDelegate.swift in Sources */,
 				6305047027EF8BCB00DCC6BF /* TimeSeriesMonthlyAdjusted.swift in Sources */,
 				6305046727ED4FF500DCC6BF /* SearchResults.swift in Sources */,
@@ -328,7 +392,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6305048827F4D50E00DCC6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6305048F27F4D50E00DCC6BF /* DCACalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6305049127F4D50E00DCC6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6305044627EC212500DCC6BF /* DollarCostAvgCalculator */;
+			targetProxy = 6305049027F4D50E00DCC6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6305045027EC212500DCC6BF /* Main.storyboard */ = {
@@ -475,6 +555,7 @@
 				DEVELOPMENT_TEAM = 99568KA9SE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DollarCostAvgCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DCA Calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -504,6 +585,7 @@
 				DEVELOPMENT_TEAM = 99568KA9SE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DollarCostAvgCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DCA Calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -519,6 +601,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6305049327F4D50E00DCC6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LifeWorksIQ.DCACalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollarCostAvgCalculator.app/DollarCostAvgCalculator";
+			};
+			name = Debug;
+		};
+		6305049427F4D50E00DCC6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LifeWorksIQ.DCACalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollarCostAvgCalculator.app/DollarCostAvgCalculator";
 			};
 			name = Release;
 		};
@@ -539,6 +657,15 @@
 			buildConfigurations = (
 				6305045C27EC212700DCC6BF /* Debug */,
 				6305045D27EC212700DCC6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6305049227F4D50E00DCC6BF /* Build configuration list for PBXNativeTarget "DCACalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6305049327F4D50E00DCC6BF /* Debug */,
+				6305049427F4D50E00DCC6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
